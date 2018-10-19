@@ -1,15 +1,21 @@
 import React, { Component } from "react";
 import "./style.css";
 import ScrollAnimation from "react-animate-on-scroll";
+import Jello from "react-reveal/Jello";
+import Shake from "react-reveal/Shake";
 
 export default class Progress extends Component {
   render() {
     return (
-      <div className="container">
-        <h2 className="display-4">My Skill Level</h2>
+      <div className="container" id="mySkills">
+        <Jello>
+          <h2 className="display-4">My Skill Level</h2>
+        </Jello>
         <div className="row">
           <div className="col-md-6 d-flex align-items-center">
-            <p className="display-3 lead text-info">Some of my skills</p>
+            <Shake>
+              <p className="display-3 lead text-info">Some of my skills</p>
+            </Shake>
           </div>
           <div className="col-md-6">
             <div className="prog-con">
