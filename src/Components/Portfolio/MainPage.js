@@ -5,6 +5,14 @@ import WebImage from "./a.jpg";
 import Rotate from "react-reveal/Rotate";
 import LightSpeed from "react-reveal/LightSpeed";
 import Flip from "react-reveal/Flip";
+//All Image
+import glozom from "./img/glozom.png";
+import looplab from "./img/looplab.png";
+import mizuxe from "./img/mizuxe.png";
+import roku from "./img/roku.png";
+import client from "./img/client.png";
+import contact from "./img/contact.png";
+import todo from "./img/todo.png";
 
 export default class MainPage extends Component {
   render() {
@@ -21,31 +29,39 @@ export default class MainPage extends Component {
         <div className="row">
           <div className="col-md-6">
             <Portfolio
-              img={WebImage}
-              name="LoopLab"
+              img={glozom}
+              name="Glozom"
               details="A responsive website made with HTML,CSS,JavaScript"
-              link="https://google.com"
+              link=""
+              github="https://github.com/MalveeGitHub/glozzom"
+              link="https://malveegithub.github.io/glozzom/"
             />
           </div>
           <div className="col-md-6">
             <Portfolio
-              img={WebImage}
+              img={looplab}
               name="LoopLab"
-              details="A responsive website made with HTML,CSS,JavaScript"
+              details="Looplab is a Responsive Site made with Bootstrap"
+              link="https://malveegithub.github.io/looplab/"
+              github="https://github.com/MalveeGitHub/looplab"
             />
           </div>
           <div className="col-md-6">
             <Portfolio
-              img={WebImage}
-              name="LoopLab"
-              details="A responsive website made with HTML,CSS,JavaScript"
+              github="https://github.com/MalveeGitHub/mizuxe"
+              link="https://malveegithub.github.io/mizuxe/"
+              img={mizuxe}
+              name="Mizuxe"
+              details="Mizuxe is a static responsive website"
             />
           </div>
           <div className="col-md-6">
             <Portfolio
-              img={WebImage}
-              name="LoopLab"
-              details="A responsive website made with HTML,CSS,JavaScript"
+              img={roku}
+              name="Roku"
+              details="Another Static Front-End Website"
+              link="https://malveegithub.github.io/Landing-Page/"
+              github="https://github.com/MalveeGitHub/Landing-Page"
             />
           </div>
         </div>
@@ -56,24 +72,29 @@ export default class MainPage extends Component {
           <div className="row">
             <div className="col-md-6">
               <Portfolio
-                img={WebImage}
+                img={client}
                 name="Client Panel"
-                details="A responsive website made with HTML,CSS,JavaScript"
-                link="https://google.com"
+                details="A responsive client panel with Firebase"
+                github="https://github.com/MalveeGitHub/react-clientpanel"
+                link="https://malveegithub.github.io/react-clientpanel/"
               />
             </div>
             <div className="col-md-6">
               <Portfolio
-                img={WebImage}
+                img={contact}
                 name="Contact List"
-                details="A responsive Client Panel"
+                details="A responsive Contact list with react-redux"
+                github="https://github.com/MalveeGitHub/react-redux-contactApp"
+                link="https://malveegithub.github.io/react-contact-list/#/"
               />
             </div>
             <div className="col-md-6">
               <Portfolio
-                img={WebImage}
-                name="LoopLab"
-                details="A responsive website made with HTML,CSS,JavaScript"
+                img={todo}
+                name="Todo List"
+                link="todo-d08e8.firebaseapp.com"
+                github="https://github.com/MalveeGitHub/react-todolist"
+                details="A responsive Todo list with firebase database"
               />
             </div>
             <div className="col-md-6">
