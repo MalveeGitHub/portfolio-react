@@ -10,12 +10,12 @@ export default class MainPage extends Component {
   render() {
     return (
       <div className="container mt-4 pt-4 text-center" id="portfolio">
-        <h2>
+        <h2 className="font-end-p">
           {" "}
           <Rotate cascade>Front-End Projects</Rotate>
           <i className="fas fa-arrow-down ml-2" />
         </h2>
-        <h3 className="display-">
+        <h3 className="display- project-title my-4">
           <LightSpeed cascade>HTML+CSS+JavaScript+jQuery+Bootstrap</LightSpeed>
         </h3>
         <div className="row">
@@ -50,7 +50,7 @@ export default class MainPage extends Component {
           </div>
         </div>
         <div>
-          <h3 className="display-">
+          <h3 className="display- project-title my-4">
             <Flip cascade>React+Rudx+Firebase</Flip>
           </h3>
           <div className="row">

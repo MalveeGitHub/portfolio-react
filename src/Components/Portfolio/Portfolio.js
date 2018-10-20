@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./style.css";
-import Bounce from "react-reveal/Bounce";
+import LightSpeed from "react-reveal/LightSpeed";
 
 export default class Portfolio extends Component {
   render() {
     const { name, img, details, link } = this.props;
     return (
-      <Bounce cascade>
+      <LightSpeed left cascade>
         <div className="card text-info" style={{ width: "18rem" }}>
           <div className="img-con text-light text-center">
             <img className="card-img-top" src={img} alt="Card image cap" />
@@ -24,10 +24,10 @@ export default class Portfolio extends Component {
 
           <div className="card-body" style={{ minHeight: "170px" }}>
             <h5 className="card-title">{name}</h5>
-            <p className="card-text">{details}</p>
+            <p className="card-text port-details">{details}</p>
           </div>
         </div>
-      </Bounce>
+      </LightSpeed>
     );
   }
 }

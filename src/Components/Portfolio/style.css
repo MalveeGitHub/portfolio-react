@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Nosifer");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Chakra+Petch");
 .img-con {
   overflow: hidden !important;
   position: relative;
@@ -64,4 +67,22 @@ header {
 
 .card {
   min-width: 100%;
+}
+
+/* Fonts */
+.font-end-p {
+  font-family: "Nosifer", cursive;
+}
+
+.port-details {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+.project-title {
+  font-family: "Chakra Petch", sans-serif;
+}
+header p {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 20px;
 }

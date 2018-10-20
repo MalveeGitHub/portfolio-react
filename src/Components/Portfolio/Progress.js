@@ -7,7 +7,7 @@ import Shake from "react-reveal/Shake";
 export default class Progress extends Component {
   render() {
     return (
-      <div className="container" id="mySkills">
+      <div className="container my-4 " id="mySkills">
         <Jello>
           <h2 className="display-4">My Skill Level</h2>
         </Jello>
