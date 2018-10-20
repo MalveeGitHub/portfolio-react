@@ -19,7 +19,7 @@ export default class MainPage extends Component {
           <LightSpeed cascade>HTML+CSS+JavaScript+jQuery+Bootstrap</LightSpeed>
         </h3>
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-md-6">
             <Portfolio
               img={WebImage}
               name="LoopLab"
@@ -27,21 +27,21 @@ export default class MainPage extends Component {
               link="https://google.com"
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-6">
             <Portfolio
               img={WebImage}
               name="LoopLab"
               details="A responsive website made with HTML,CSS,JavaScript"
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-6">
             <Portfolio
               img={WebImage}
               name="LoopLab"
               details="A responsive website made with HTML,CSS,JavaScript"
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-6">
             <Portfolio
               img={WebImage}
               name="LoopLab"
@@ -54,7 +54,7 @@ export default class MainPage extends Component {
             <Flip cascade>React+Rudx+Firebase</Flip>
           </h3>
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-6">
               <Portfolio
                 img={WebImage}
                 name="Client Panel"
@@ -62,21 +62,21 @@ export default class MainPage extends Component {
                 link="https://google.com"
               />
             </div>
-            <div className="col-md-3">
+            <div className="col-md-6">
               <Portfolio
                 img={WebImage}
                 name="Contact List"
                 details="A responsive Client Panel"
               />
             </div>
-            <div className="col-md-3">
+            <div className="col-md-6">
               <Portfolio
                 img={WebImage}
                 name="LoopLab"
                 details="A responsive website made with HTML,CSS,JavaScript"
               />
             </div>
-            <div className="col-md-3">
+            <div className="col-md-6">
               <Portfolio
                 img={WebImage}
                 name="LoopLab"

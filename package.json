@@ -2,7 +2,9 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://malveegithub.github.io/portfolio-react",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.5.2",
     "react-anchor-link-smooth-scroll": "^1.0.11",
     "react-animate-on-scroll": "^2.1.5",
@@ -12,6 +14,7 @@
     "react-typing-effect": "^1.0.3"
   },
   "scripts": {
+    "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
