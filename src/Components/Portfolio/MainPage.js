@@ -13,6 +13,8 @@ import roku from "./img/roku.png";
 import client from "./img/client.png";
 import contact from "./img/contact.png";
 import todo from "./img/todo.png";
+import github from "./img/github.png";
+import youtube from "./img/youtube.png";
 
 export default class MainPage extends Component {
   render() {
@@ -99,9 +101,20 @@ export default class MainPage extends Component {
             </div>
             <div className="col-md-6">
               <Portfolio
-                img={WebImage}
-                name="LoopLab"
-                details="A responsive website made with HTML,CSS,JavaScript"
+                img={github}
+                name="Github Finder"
+                details="Github User Info Finder"
+                github="https://github.com/MalveeGitHub/react-githubfinder"
+                link="https://stoic-kirch-ceba1a.netlify.com/"
+              />
+            </div>
+            <div className="col-md-6">
+              <Portfolio
+                img={youtube}
+                name="Youtube Search"
+                details="React.js youtube search"
+                github="https://github.com/MalveeGitHub/portfolio-react"
+                link="https://malveegithub.github.io/youtube-search-react/"
               />
             </div>
           </div>
