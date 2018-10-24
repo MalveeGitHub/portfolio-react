@@ -15,6 +15,7 @@ import contact from "./img/contact.png";
 import todo from "./img/todo.png";
 import github from "./img/github.png";
 import youtube from "./img/youtube.png";
+import Contact from "../Contact";
 
 export default class MainPage extends Component {
   render() {

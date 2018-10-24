@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { Link } from "react-router-dom";
 
 export default class StickyNav extends Component {
   render() {
@@ -34,13 +35,13 @@ export default class StickyNav extends Component {
               </li>
               <li class="nav-item">
                 <AnchorLink class="nav-link" href="#mySkills">
-                  Skills
+                  S Level
                 </AnchorLink>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Disabled
-                </a>
+                <Link className="nav-link" to="/skills">
+                  Skills
+                </Link>
               </li>
             </ul>
           </div>
