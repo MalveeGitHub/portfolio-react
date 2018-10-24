@@ -95,7 +95,7 @@ export default class MainPage extends Component {
               <Portfolio
                 img={todo}
                 name="Todo List"
-                link="todo-d08e8.firebaseapp.com"
+                link="https://todo-d08e8.firebaseapp.com"
                 github="https://github.com/MalveeGitHub/react-todolist"
                 details="A responsive Todo list with firebase database"
               />
